@@ -213,6 +213,13 @@ button {
   background-color: var(--Dark-gray-blue);
   padding: 0.8rem 0;
   border-radius: 2rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background: linear-gradient(180deg, var(--Light-slate-blue), var(--Light-royal-blue));
 }
 
 @media (min-width: 768px) {
@@ -244,6 +251,13 @@ button {
       background-color: var(--Dark-gray-blue);
       padding: 1rem 0;
       border-radius: 2rem;
+      cursor: pointer;
+      outline: none;
+      border: none;
+    }
+
+    button:hover {
+      background: linear-gradient(180deg, var(--Light-slate-blue), var(--Light-royal-blue));
     }
 }
 
